@@ -1,9 +1,10 @@
-tensorflow==2.20.0
-pandas 
-numpy 
+tensorflow==2.10.0
+pandas
+numpy
 scikit-learn
-tensorboard
+tensorboard==2.10.0
 matplotlib
-streamlit
+streamlit==1.9.0
 scikeras
 ipykernel
+protobuf==3.20.3
