@@ -4,7 +4,7 @@ This project predicts **bank customer churn** using **Deep Learning (Artificial 
 
 The project also includes a **Streamlit web application** for real-time churn prediction.
 
-** Live Demo:** [Customer Churn Prediction App](https://deep-learning-projects-3m352tfhkbf5tmmrgaqoqh.streamlit.app/)
+**Live Demo:** [Customer Churn Prediction App](https://deep-learning-projects-3m352tfhkbf5tmmrgaqoqh.streamlit.app/)
 
 ---
 
