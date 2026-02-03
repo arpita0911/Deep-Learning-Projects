@@ -4,9 +4,13 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pandas as pd
 import pickle
+import os
+
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "output", "final_model.h5")
+
 
 # Load the trained model
-model = tf.keras.models.load_model('output/final_model.h5')
+model = tf.keras.models.load_model(MODEL_PATH,compile=False)
 
 # Load the encoders and scaler
 with open('output/label_encoder_gender.pkl', 'rb') as file:
